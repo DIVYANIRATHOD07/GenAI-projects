@@ -1,0 +1,35 @@
+# ==============================================================================
+# GenAI Practical Laboratory - Dependencies
+# ==============================================================================
+
+# Core Dashboard & Data Analysis
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+scikit-learn>=1.2.0
+pillow>=9.5.0
+
+# Deep Learning & Web Deployment
+tensorflow>=2.15.0
+torch>=2.0.0
+torchvision>=0.15.0
+Flask>=2.3.0
+
+# NLP & Generative AI Models
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+huggingface_hub>=0.16.0
+
+# Optional Dependencies (For full training and GPU-accelerated pipelines)
+# diffusers>=0.20.0        # Exp 4: RunwayML Stable Diffusion v1-5 Pipeline
+# accelerate>=0.21.0       # Exp 3, 4, 8, 9: Distributed / fp16 execution
+# peft>=0.4.0              # Exp 8, 9: LoRA Fine-Tuning adapters
+# pypdf>=3.10.0            # Exp 9: PDF document ingestion
+# gradio>=3.35.0           # Exp 3: Gradio interface server
+# soundfile>=0.12.0        # Exp 8: Audio file writing
+# librosa>=0.10.0          # Exp 8: Audio spectrogram analysis
+# datasets>=2.14.0         # Exp 7, 8, 9: Hugging Face dataset hub
+# kaggle>=1.5.0            # Exp 6: CelebA download via Kaggle API
